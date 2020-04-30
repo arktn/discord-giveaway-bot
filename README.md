@@ -20,7 +20,7 @@ Open config.json
 And change the following values:
 
 ```
-"prefix": "!", // You don't have to change the prefix if you don't want to.
+"prefix": "YOUR_PREFIX_HERE",
 "token": "YOUR_TOKEN_HERE"
 ```
 
