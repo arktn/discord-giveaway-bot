@@ -32,9 +32,11 @@ And change the following values:
 
 ## Contributing
 
-You can always correct any type of coding mistake or just make the code more efficiant.
-If you see any type of grammer or spelling mistake please correct it, that would help me a lot.
-To report an issue or add a change just open an issue or a pull request and I'll look over it as soon as possible :D
+```
+If you spot a any kind of mistake and know how to fix it edit the code and submit a pull request.
+If you don't know how to fix it open an Issue and tell me about the mistake.
+If you have any idea on how to make the code more efficiant please tell me about it.
+```
 
 ## Author
 
