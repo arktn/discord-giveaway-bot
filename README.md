@@ -27,8 +27,8 @@ And change the following values:
 ## Features
 
 * Create your own custom giveaways!
-* Custom time.
-* Custom prize.
+* Custom time!
+* Custom prize!
 
 ## Contributing
 
