@@ -32,7 +32,14 @@ And change the following values:
 
 ## Contributing
 
-Just open an issue or a pull request and I'll look over it as soon as possible.
+1. [Fork the repository](https://github.com/notmaxi/discord-giveaway-bot/fork)!
+2. Clone your fork: `git clone https://github.com/your-username/discord-giveaway-bot.git`
+3. Create your feature branch: `git checkout -b my-new-feature`
+4. Commit your changes: `git commit -am 'Add some feature'`
+5. Push to the branch: `git push origin my-new-feature`
+6. Submit a pull request! :D
+
+(You can still just open an issue or a pullrequest.)
 
 ## Author
 
