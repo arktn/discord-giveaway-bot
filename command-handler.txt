@@ -1,0 +1,1 @@
+If you have asked yourself why there's no command handler, I'm working on one and I'll add it as soon as possible.
