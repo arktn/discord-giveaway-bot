@@ -1,6 +1,8 @@
 # Simple discord giveaway bot
 > Very simple discord giveaway bot made with discord.js
 
+![Example](https://raw.githubusercontent.com/notmaxi/giveaway-bot/master/example.png)
+
 ## Install
 
 ```
