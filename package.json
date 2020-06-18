@@ -1,21 +1,21 @@
 {
-  "name": "discord-giveaway-bot",
+  "name": "giveaway-bot",
   "version": "1.0.0",
-  "description": "Very simple discord giveaway bot made with discord.js",
+  "description": "Very simple giveaway bot made with discord.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/notmaxi/discord-giveaway-bot.git"
+    "url": "git+https://github.com/notmaxi/giveaway-bot.git"
   },
   "author": "notmaxi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/notmaxi/discord-giveaway-bot/issues"
+    "url": "https://github.com/notmaxi/giveaway-bot/issues"
   },
-  "homepage": "https://github.com/notmaxi/discord-giveaway-bot#readme",
+  "homepage": "https://github.com/notmaxi/giveaway-bot#readme",
   "dependencies": {
     "discord.js": "^12.2.0"
   }
