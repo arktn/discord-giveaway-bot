@@ -26,6 +26,12 @@ And change the following values:
 "token": "YOUR_TOKEN_HERE"
 ```
 
+## Start
+After you have filled in everything in the config.json file just hit the start-bot.bat file and your bot will start automatically for you.
+
+![Example2](https://i.imgur.com/Yeu5CXZ.gif)
+> Don't worry that token is outdated.
+
 ## Features
 
 * Create your own custom giveaways!
