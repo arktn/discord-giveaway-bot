@@ -27,10 +27,15 @@ And change the following values:
 ```
 
 ## Start
-After you have filled in everything in the config.json file just hit the start-bot.bat file and your bot will start automatically for you.
+
+`After you have filled in everything in the config.json file just hit the start-bot.bat file and your bot will start automatically for you.`
 
 ![Example2](https://i.imgur.com/Yeu5CXZ.gif)
-> Don't worry that token is outdated.
+
+```
+If you have a problem starting the bot you can always open an issue in this repository.
+```
+> Don't worry the token shown in this gif is outdated.
 
 ## Features
 
