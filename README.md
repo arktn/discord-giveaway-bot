@@ -28,7 +28,7 @@ And change the following values:
 
 ## Start
 
-`After you have filled in everything in the config.json file just hit the start-bot.bat file and your bot will start automatically for you.`
+`After you have filled in everything in the config.json file just hit the start-bot.bat file and your bot will start automatically.`
 
 ![Example2](https://i.imgur.com/Yeu5CXZ.gif)
 
