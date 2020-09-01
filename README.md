@@ -45,11 +45,12 @@ If you have a problem starting the bot you can always open an issue in this repo
 
 ## Contributing
 
-```
-If you spot a any kind of mistake and know how to fix it edit the code and submit a pull request.
-If you don't know how to fix it open an Issue and tell me about the mistake.
-If you have any idea on how to make the code more efficiant please tell me about it.
-```
+1. [Fork the repository!](https://github.com/notmaxi/giveaway-bot/fork)
+2. Clone your fork: `git clone https://github.com/your-username/giveaway-bot.git`
+3. Create your feature branch: `git checkout -b my-new-feature`
+4. Commit your changes: `git commit -am 'Add some feature'`
+5. Push to the branch: `git push origin my-new-feature`
+6. Submit a pull request! ₍ᐢ•ﻌ•ᐢ₎*･ﾟ｡
 
 ## Author
 
