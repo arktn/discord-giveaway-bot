@@ -1,8 +1,10 @@
 {
   "name": "giveaway-bot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Very simple giveaway bot made with discord.js",
   "main": "index.js",
+  "author": "notmaxi <github.com/notmaxi>",
+	"license": "Apache-2.0 License",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
