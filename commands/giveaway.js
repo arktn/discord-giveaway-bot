@@ -7,7 +7,7 @@ module.exports = {
         if (!message.guild) return;
         async function giveaway() {
             if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('You don\'t have enough permissions to use this command.');
-            if (message.content.split(' ')[1] === '') return messages.channel.send('Please enter a duration for the giveaway (in hours).');
+            if (!message.content.split(' ')[1]) return messages.channel.send('Please enter a duration for the giveaway (in hours).');
             const stated_duration_hours = message.content.split(' ')[1];
             const actual_duration_hours = stated_duration_hours * 3600000;
             const prize = message.content.split(' ').slice(2).join(' ');
