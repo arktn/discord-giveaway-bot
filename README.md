@@ -54,6 +54,6 @@ If you have a problem starting the bot you can always open an issue in this repo
 
 ## Author
 
-Authored and maintained by notmaxi.
+Authored and maintained by fekt.
 
 > GitHub [@fekt](https://github.com/fekt)
