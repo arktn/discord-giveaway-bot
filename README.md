@@ -27,8 +27,7 @@ yarn
 
 ## Usage
 
-Open config.json
-And change the following values:
+Open config.json and change the following values:
 
 ```
 "prefix": "YOUR_PREFIX_HERE",
