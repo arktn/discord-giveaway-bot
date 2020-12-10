@@ -12,10 +12,11 @@ module.exports = {
             .setAuthor(client.user.username, client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }), 'https://github.com/fekt/discord-giveaway-bot')
             .setThumbnail(client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
             .setTitle('Help')
+            .setURL('https://github.com/fekt/discord-giveaway-bot')
             .setColor('7289da')
             .setDescription(`You want to create a giveaway bot yourself?\n[Check out our Github page!](https://github.com/fekt/discord-giveaway-bot)`)
-            .addField(`${prefix}giveaway [duration] [prize]`, 'Duration is statet in hours so it has to be a number and atleast 1.\nPrize can be anything but it has to be atleast one symbol.')
-            .addField('Example:', `${prefix}giveaway 10 $9.99 Nitro\nCreates a 10 hour long giveaway with '$9.99 Nitro' as prize.`)
+            .addField(`${prefix}giveaway [duration] [prize]`, 'Duration is statet in a number and a time variable.\nPrize can be anything but it has to be above one.')
+            .addField('Example:', `${prefix}giveaway 10h $9.99 Nitro\nCreates a 10 hour long giveaway with '$9.99 Nitro' as prize.`)
             .setFooter('Made with 💖 and discord.js by fekt', client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
             message.author.send(embed);
             }
@@ -24,9 +25,10 @@ module.exports = {
             .setAuthor(client.user.username, client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }), 'https://github.com/fekt/discord-giveaway-bot')
             .setThumbnail(client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
             .setTitle('Help')
+            .setURL('https://github.com/fekt/discord-giveaway-bot')
             .setColor('7289da')
             .setDescription(`You want to create a giveaway bot yourself?\n[Check out our Github page!](https://github.com/fekt/discord-giveaway-bot)`)
-            .addField(`${prefix}giveaway [duration] [prize]`, 'Duration is statet in hours so it has to be a number and atleast 1.\nPrize can be anything but it has to be atleast one symbol.')
+            .addField(`${prefix}giveaway [duration] [prize]`, 'Duration is statet in a number and a time variable.\nPrize can be anything but it has to be above one.')
             .addField('Example:', `${prefix}giveaway 10h $9.99 Nitro\nCreates a 10 hour long giveaway with '$9.99 Nitro' as prize.`)
             .setFooter('Made with 💖 and discord.js by fekt', client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
             message.author.send(embed);
