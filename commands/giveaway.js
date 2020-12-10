@@ -54,7 +54,6 @@ module.exports = {
             const prize = message.content.split(' ').slice(2).join(' ');
             if (prize === '') return message.channel.send('You have to enter a price.');
             if (!isNaN(stated_duration_hours3)) {
-                message.channel.send('The duration has to be a number.');
                 if (stated_duration_hours3 !== '0') {
                     const embed = new Discord.MessageEmbed()
                     .setTitle(`${prize}`)
@@ -72,7 +71,7 @@ module.exports = {
                                 const winner_embed = new Discord.MessageEmbed()
                                 .setTitle(`${prize}`)
                                 .setColor('36393F')
-                                .setDescription(`Winner: No one entered the giveaway.\nHosted by: ${message.author}`)
+                                .setDescription(`Winner:\nNo one entered the giveaway.\nHosted by: ${message.author}`)
                                 .setTimestamp()
                                 .setFooter('Ended at')
                                 msg.edit(':tada: **GIVEAWAY ENDED** :tada:', winner_embed);
@@ -81,7 +80,7 @@ module.exports = {
                                 const winner_embed = new Discord.MessageEmbed()
                                 .setTitle(`${prize}`)
                                 .setColor('36393F')
-                                .setDescription(`Winner: ${winner}\nHosted by: ${message.author}`)
+                                .setDescription(`Winner:\n${winner}\nHosted by: ${message.author}`)
                                 .setTimestamp()
                                 .setFooter('Ended at')
                                 msg.edit(':tada: **GIVEAWAY ENDED** :tada:', winner_embed);
