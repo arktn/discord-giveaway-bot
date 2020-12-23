@@ -1,5 +1,6 @@
 // Dependencies
 let Discord = require('discord.js');
+const { prefix } = require('../config.json');
 
 module.exports = {
     name: 'giveaway',
@@ -10,7 +11,8 @@ module.exports = {
             var time2 = '';
             var time3 = '';
             if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('You don\'t have enough permissions to use this command.');
-            if (message.content.split(' ')[1] === '') return messages.channel.send('Please enter a duration for the giveaway (in hours).');
+            if (message.content === `${prefix}giveaway`) return message.channel.send(`You didn\'t state a duration or a price for the giveaway.`)
+            if (message.content !== `${prefix}giveaway`) {
             const stated_duration_hours = message.content.split(' ')[1];
             const stated_duration_hours2 = stated_duration_hours.toLowerCase();
             if (stated_duration_hours2.includes('s')) {
@@ -30,7 +32,7 @@ module.exports = {
                 message.channel.send('The duration has to be atleast one.');
             }
             if (isNaN(stated_duration_hours3)) {
-                message.channel.send('The duration has to be a number.');
+                message.channel.send('The duration has to be a valid time variable.');
             }
             if (stated_duration_hours3 > 1) {
                 var time3 = 's';
@@ -51,9 +53,9 @@ module.exports = {
                 var actual_duration_hours = stated_duration_hours3 * 86400000;
                 var time2 = 'day';
             }
-            const prize = message.content.split(' ').slice(2).join(' ');
-            if (prize === '') return message.channel.send('You have to enter a price.');
             if (!isNaN(stated_duration_hours3)) {
+                const prize = message.content.split(' ').slice(2).join(' ');
+                if (prize === '') return message.channel.send('You have to enter a price.');
                 if (stated_duration_hours3 !== '0') {
                     const embed = new Discord.MessageEmbed()
                     .setTitle(`${prize}`)
@@ -90,6 +92,7 @@ module.exports = {
                 }
             }
         }
+    }
         giveaway();
     }
 }
