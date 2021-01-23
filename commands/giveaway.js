@@ -4,6 +4,7 @@ const { prefix } = require('../config.json');
 
 module.exports = {
     name: 'giveaway',
+    guildOnly: true,
     execute(client, message){
         if (!message.guild) return;
         async function giveaway() {
