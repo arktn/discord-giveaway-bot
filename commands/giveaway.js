@@ -10,7 +10,7 @@ module.exports = {
             var time = '';
             var time2 = '';
             var time3 = '';
-            if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('You don\'t have enough permissions to execute this command.');
+            if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('You don\'t have enough permission to execute this command.');
             if (message.content === `${prefix}giveaway`) return message.channel.send(`You didn\'t state a duration or a prize for the giveaway.`)
             if (message.content !== `${prefix}giveaway`) {
                 const stated_duration_hours = message.content.split(' ')[1];
