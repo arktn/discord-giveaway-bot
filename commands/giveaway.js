@@ -10,8 +10,8 @@ module.exports = {
             var time = '';
             var time2 = '';
             var time3 = '';
-            if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('You don\'t have enough permissions to use this command.');
-            if (message.content === `${prefix}giveaway`) return message.channel.send(`You didn\'t state a duration or a price for the giveaway.`)
+            if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('You don\'t have enough permissions to execute this command.');
+            if (message.content === `${prefix}giveaway`) return message.channel.send(`You didn\'t state a duration or a prize for the giveaway.`)
             if (message.content !== `${prefix}giveaway`) {
                 const stated_duration_hours = message.content.split(' ')[1];
                 const stated_duration_hours2 = stated_duration_hours.toLowerCase();
@@ -55,7 +55,7 @@ module.exports = {
                 }
                 if (!isNaN(stated_duration_hours3)) {
                     const prize = message.content.split(' ').slice(2).join(' ');
-                    if (prize === '') return message.channel.send('You have to enter a price.');
+                    if (prize === '') return message.channel.send('You have to enter a prize.');
                     if (stated_duration_hours3 !== '0') {
                         const embed = new Discord.MessageEmbed()
                         .setTitle(`${prize}`)
