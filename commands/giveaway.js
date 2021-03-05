@@ -3,16 +3,16 @@ let Discord = require('discord.js');
 const { prefix } = require('../config.json');
 
 module.exports = {
-    name: 'giveaway',
+    name: 'gstart',
     execute(client, message){
         if (!message.guild) return;
-        async function giveaway() {
+        async function gstart() {
             var time = '';
             var time2 = '';
             var time3 = '';
             if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('You don\'t have enough permission to execute this command.');
-            if (message.content === `${prefix}giveaway`) return message.channel.send(`You didn\'t state a duration or a prize for the giveaway.`)
-            if (message.content !== `${prefix}giveaway`) {
+            if (message.content === `${prefix}gstart`) return message.channel.send(`You didn\'t state a duration or a prize for the gstart.`)
+            if (message.content !== `${prefix}gstart`) {
                 const stated_duration_hours = message.content.split(' ')[1];
                 const stated_duration_hours2 = stated_duration_hours.toLowerCase();
                 if (stated_duration_hours2.includes('s')) {
@@ -63,7 +63,7 @@ module.exports = {
                         .setDescription(`React with 🎉 to enter!\nTime duration: **${stated_duration_hours3}** ${time2}${time3}\nHosted by: ${message.author}`)
                         .setTimestamp(Date.now() + (actual_duration_hours))
                         .setFooter('Ends at')
-                        let msg = await message.channel.send(':tada: **GIVEAWAY** :tada:', embed)
+                        let msg = await message.channel.send(':tada: **gstart** :tada:', embed)
                         await msg.react('🎉')
                         setTimeout(() => {
                             msg.reactions.cache.get('🎉').users.remove(client.user.id)
@@ -73,10 +73,10 @@ module.exports = {
                                     const winner_embed = new Discord.MessageEmbed()
                                     .setTitle(`${prize}`)
                                     .setColor('36393F')
-                                    .setDescription(`Winner:\nNo one entered the giveaway.\nHosted by: ${message.author}`)
+                                    .setDescription(`Winner:\nNo one entered the gstart.\nHosted by: ${message.author}`)
                                     .setTimestamp()
                                     .setFooter('Ended at')
-                                    msg.edit(':tada: **GIVEAWAY ENDED** :tada:', winner_embed);
+                                    msg.edit(':tada: **gstart ENDED** :tada:', winner_embed);
                                 }
                                 if (!msg.reactions.cache.get('🎉').users.cache.size < 1) {
                                     const winner_embed = new Discord.MessageEmbed()
@@ -85,7 +85,7 @@ module.exports = {
                                     .setDescription(`Winner:\n${winner}\nHosted by: ${message.author}`)
                                     .setTimestamp()
                                     .setFooter('Ended at')
-                                    msg.edit(':tada: **GIVEAWAY ENDED** :tada:', winner_embed);
+                                    msg.edit(':tada: **gstart ENDED** :tada:', winner_embed);
                                 }
                             }, 1000);
                         }, actual_duration_hours);
@@ -93,6 +93,6 @@ module.exports = {
                 }
             }
         }
-        giveaway();
+        gstart();
     }
 }

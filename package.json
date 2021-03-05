@@ -3,8 +3,8 @@
   "version": "1.2.0",
   "description": "Very simple giveaway bot made with discord.js",
   "main": "index.js",
-  "author": "fent <github.com/fent>",
-	"license": "Apache-2.0 License",
+  "author": "fent",
+  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/fent/giveaway-bot.git"
   },
-  "author": "fent",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/fent/giveaway-bot/issues"
   },
