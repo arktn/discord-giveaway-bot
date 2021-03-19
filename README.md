@@ -1,7 +1,7 @@
 # Simple discord giveaway bot
 > A very simple discord giveaway bot made with discord.js
 
-![Preview](https://raw.githubusercontent.com/fekt/images/main/giveaway-bot/giveaway-bot.png)
+![Preview](https://i.imgur.com/vYtv3fA.png)
 
 ## Install
 
@@ -12,7 +12,7 @@ Create a folder.
 Open Command Prompt.
 Type in: cd The path to your new folder. (Example: C:\Users\User\Desktop\New folder)
 Press enter.
-After that type in: git clone https://github.com/fekt/giveaway-bot.git
+After that type in: git clone https://github.com/fekt/discord-giveaway-bot.git
 Press enter.
 When you see all Github files in your folder you installed the bot succesfully.
 ```
@@ -54,8 +54,8 @@ If you have a problem starting the bot you can always open an issue in this repo
 
 ## Contributing
 
-1. [Fork the repository!](https://github.com/fekt/giveaway-bot/fork)
-2. Clone your fork: `git clone https://github.com/your-username/giveaway-bot.git`
+1. [Fork the repository!](https://github.com/fekt/discord-giveaway-bot/fork)
+2. Clone your fork: `git clone https://github.com/your-username/discord-giveaway-bot.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Commit your changes: `git commit -am 'Add some feature'`
 5. Push to the branch: `git push origin my-new-feature`
