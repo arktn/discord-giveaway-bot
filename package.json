@@ -1,23 +1,18 @@
+
 {
   "name": "discord-giveaway-bot",
   "version": "1.3.0",
   "description": "Very simple giveaway bot made with discord.js",
   "main": "index.js",
-  "author": "fekt <github.com/ghaku>",
-	"license": "Apache-2.0 License",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghaku/discord-giveaway-bot.git"
+    "url": "https://github.com/ghaku/discord-giveaway-bot"
   },
-  "author": "ghaku",
+  "author": "https://github.com/ghaku",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/ghaku/discord-giveaway-bot/issues"
-  },
-  "homepage": "https://github.com/ghaku/discord-giveaway-bot#readme",
   "dependencies": {
     "discord.js": "^12.2.0"
   }
