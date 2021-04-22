@@ -1,31 +1,55 @@
+const fs = require('fs');
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
-let fs = require('fs');
-const { prefix, token } = require('./config.json');
 
-client.on('ready', () => {
-  console.log(`Bot tag: ${client.user.tag}`);
-  console.log(`Guilds: ${client.guilds.cache.size}`);
-  client.user.setActivity(`with ${prefix}giveaway & ${prefix}help`, { type: 'PLAYING' });
+const config = require('./config.json');
+client.config = config;
+
+const { GiveawaysManager } = require('discord-giveaways');
+client.giveawaysManager = new GiveawaysManager(client, {
+    storage: "./giveaways.json",
+    updateCountdownEvery: 5000,
+    default: {
+        botsCanWin: false,
+        embedColor: "#FF0000",
+        reaction: "🎉"
+    }
+});
+
+client.giveawaysManager.on("giveawayReactionAdded", (giveaway, member, reaction) => {
+    console.log(`${member.user.tag} entered giveaway #${giveaway.messageID} (${reaction.emoji.name})`);
+});
+
+client.giveawaysManager.on("giveawayReactionRemoved", (giveaway, member, reaction) => {
+    console.log(`${member.user.tag} unreact to giveaway #${giveaway.messageID} (${reaction.emoji.name})`);
+});
+
+client.giveawaysManager.on("giveawayEnded", (giveaway, winners) => {
+    console.log(`Giveaway #${giveaway.messageID} ended! Winners: ${winners.map((member) => member.user.username).join(', ')}`);
+});
+
+fs.readdir("./events/", (_err, files) => {
+    files.forEach((file) => {
+        if (!file.endsWith(".js")) return;
+        const event = require(`./events/${file}`);
+        let eventName = file.split(".")[0];
+        console.log(`👌 Event loaded: ${eventName}`);
+        client.on(eventName, event.bind(null, client));
+        delete require.cache[require.resolve(`./events/${file}`)];
+    });
 });
 
 client.commands = new Discord.Collection();
 
-const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
-for(const file of commandFiles) {
-  const command = require(`./commands/${file}`);
-
-  client.commands.set(command.name, command);
-}
-
-client.on('message', async message => {
-  if (message.content.startsWith(`${prefix}`)) {
-    let file_name = `${message.content.split(' ')[0].replace(prefix, '')}.js`;
-    if(!fs.existsSync('./commands/' + file_name)) return undefined;
-    if(fs.existsSync('./commands/' + file_name)) {
-      client.commands.get(file_name.replace('.js', '')).execute(client, message);
-    }
-  }
+fs.readdir("./commands/", (_err, files) => {
+    files.forEach((file) => {
+        if (!file.endsWith(".js")) return;
+        let props = require(`./commands/${file}`);
+        let commandName = file.split(".")[0];
+        client.commands.set(commandName, props);
+        console.log(`👌 Command loaded: ${commandName}`);
+    });
 });
 
-client.login(token);
+client.login(config.token);
