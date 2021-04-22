@@ -11,7 +11,7 @@
     "url": "https://github.com/ghaku/discord-giveaway-bot"
   },
   "author": "https://github.com/ghaku",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
     "discord-giveaways": "^4.4.3",
