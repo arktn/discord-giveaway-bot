@@ -1,4 +1,3 @@
-// Dependencies
 let Discord = require('discord.js');
 const { prefix } = require('../config.json');
 
@@ -15,10 +14,12 @@ module.exports = {
             .setURL('https://github.com/ghaku/discord-giveaway-bot')
             .setColor('7289da')
             .setDescription(`You want to create a giveaway bot yourself?\n[Check out our Github page!](https://github.com/ghaku/discord-giveaway-bot)`)
-            .addField(`${prefix}giveaway [duration] [prize]`, 'Duration is stated in a number and a time variable.\nPrize can be anything but it has to be above one.')
-            .addField('Example:', `${prefix}giveaway 10h $9.99 Nitro\nCreates a 10 hour long giveaway with '$9.99 Nitro' as the prize.`)
-                        .addField(`${prefix}media-giveaway [media] [duration] [prize]`, 'Media has to be an image/gif link. (In order for this to work the link has to start with either `http://` or `https://`.)\nDuration is stated in a number and a time variable.\nPrize can be anything but it has to be above one.')
-            .addField('Example:', `${prefix}media-giveaway https://image.url/image.png 10h $9.99 Nitro\nCreates a 10 hour long giveaway with '$9.99 Nitro' as the prize and https://image.url/image.png as the image.`)
+            .addField(`🎉 ${prefix}start [channel] [duration] [winners] [prize]`, 'The channel has to be visible to the giveaway bot.\nDuration is stated in a number and a time variable.\nWinners is stated in a positive number.\nPrize can be anything except blank.')
+            .addField('👥 Example:', `⌨️ ${prefix}start #general 10m 1 $9.99 Nitro\n➡️ Creates a \`10 minute\` long giveaway with \`1\` winner and\n\`$9.99 Nitro\` as a prize in \`#general\`.`)
+            .addField(`❌ ${prefix}end [message-id]`, 'Message-ID has to be the **ID** of the giveaway message.\n**Not the link!**')
+            .addField('👥 Example:', `⌨️ ${prefix}end 892678258946659587\n➡️ Ends the giveaway with the message-ID \`892678258946659587\`.`)
+            .addField(`🔍 ${prefix}reroll [message-id]`, 'Message-ID has to be the **ID** of the giveaway message.\n**Not the link!**')
+            .addField('👥 Example:', `⌨️ ${prefix}reroll 892678258946659587\n➡️ Selects new winners for the giveaway with the message-ID \`892678258946659587\`.`)
             .setFooter('Made with 💖 and discord.js by ghaku', client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
             message.author.send(embed);
             }
@@ -30,10 +31,12 @@ module.exports = {
             .setURL('https://github.com/ghaku/discord-giveaway-bot')
             .setColor('7289da')
             .setDescription(`You want to create a giveaway bot yourself?\n[Check out our Github page!](https://github.com/ghaku/discord-giveaway-bot)`)
-            .addField(`${prefix}giveaway [duration] [prize]`, 'Duration is stated in a number and a time variable.\nPrize can be anything but it has to be above one.')
-            .addField('Example:', `${prefix}giveaway 10h $9.99 Nitro\nCreates a 10 hour long giveaway with '$9.99 Nitro' as the prize.`)
-                        .addField(`${prefix}media-giveaway [media] [duration] [prize]`, 'Media has to be an image/gif link. (In order for this to work the link has to start with either `http://` or `https://`.)\nDuration is stated in a number and a time variable.\nPrize can be anything but it has to be above one.')
-            .addField('Example:', `${prefix}media-giveaway https://image.url/image.png 10h $9.99 Nitro\nCreates a 10 hour long giveaway with '$9.99 Nitro' as prize and https://image.url/image.png as the image.`)
+            .addField(`🎉 ${prefix}start [channel] [duration] [winners] [prize]`, 'The channel has to be visible to the giveaway bot.\nDuration is stated in a number and a time variable.\nWinners is stated in a positive number.\nPrize can be anything except blank.')
+            .addField('👥 Example:', `⌨️ ${prefix}start #general 10m 1 $9.99 Nitro\n➡️ Creates a \`10 minute\` long giveaway with \`1\` winner and\n\`$9.99 Nitro\` as a prize in \`#general\`.`)
+            .addField(`❌ ${prefix}end [message-id]`, 'Message-ID has to be the **ID** of the giveaway message.\n**Not the link!**')
+            .addField('👥 Example:', `⌨️ ${prefix}end 892678258946659587\n➡️ Ends the giveaway with the message-ID \`892678258946659587\`.`)
+            .addField(`🔍 ${prefix}reroll [message-id]`, 'Message-ID has to be the **ID** of the giveaway message.\n**Not the link!**')
+            .addField('👥 Example:', `⌨️ ${prefix}reroll 892678258946659587\n➡️ Selects new winners for the giveaway with the message-ID \`892678258946659587\`.`)
             .setFooter('Made with 💖 and discord.js by ghaku', client.user.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }))
             message.author.send(embed);
         }
