@@ -3,7 +3,7 @@ const ms = require('ms');
 exports.run = async (client, message, args) => {
 
     if(!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name === "Giveaways")){
-        return message.channel.send(':x: You need to have the manage messages permissions to end giveaways.');
+        return message.channel.send(':x: You need to have the \`MANAGE_MESSAGES\` permissions to end giveaways.');
     }
 
     if(!args[0]){
@@ -24,11 +24,11 @@ exports.run = async (client, message, args) => {
         message.channel.send('Giveaway will end in less than '+(client.giveawaysManager.options.updateCountdownEvery/1000)+' seconds...');
     })
     .catch((e) => {
-        if(e.startsWith(`Giveaway with message ID ${giveaway.messageID} is already ended.`)){
-            message.channel.send('This giveaway is already ended!');
+        if(e.startsWith(`Giveaway with message ID ${giveaway.messageID} has already ended.`)){
+            message.channel.send('This giveaway has already ended!');
         } else {
             console.error(e);
-            message.channel.send('An error occured...');
+            message.channel.send('An error occurred...');
         }
     });
 

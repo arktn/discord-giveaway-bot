@@ -2,7 +2,7 @@ const ms = require('ms');
 
 exports.run = async (client, message, args) => {
     if(!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name === "Giveaways")){
-        return message.channel.send(':x: You need to have the manage messages permissions to reroll giveaways.');
+        return message.channel.send(':x: You need to have the \`MANAGE_MESSAGES\` permission to reroll giveaways.');
     }
 
     if(!args[0]){
@@ -22,11 +22,11 @@ exports.run = async (client, message, args) => {
         message.channel.send('Giveaway rerolled!');
     })
     .catch((e) => {
-        if(e.startsWith(`Giveaway with message ID ${giveaway.messageID} is not ended.`)){
-            message.channel.send('This giveaway is not ended!');
+        if(e.startsWith(`Giveaway with message ID ${giveaway.messageID} has not ended.`)){
+            message.channel.send('This giveaway has not ended!');
         } else {
             console.error(e);
-            message.channel.send('An error occured...');
+            message.channel.send('An error occurred...');
         }
     });
 

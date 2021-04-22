@@ -3,7 +3,7 @@ const ms = require('ms');
 exports.run = async (client, message, args) => {
 
     if(!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name === "Giveaways")){
-        return message.channel.send(':x: You need to have the manage messages permissions to start giveaways.');
+        return message.channel.send(':x: You need to have the \`MANAGE_MESSAGES\` permissions to start giveaways.');
     }
 
     let giveawayChannel = message.mentions.channels.first();
