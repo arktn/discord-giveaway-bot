@@ -2,7 +2,6 @@ const ms = require('ms');
 
 exports.run = async (client, message, args) => {
     if(!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name === "Giveaways")){
-
         return message.channel.send(':boom: You need to have the \`MANAGE_MESSAGES\` permission to reroll giveaways.');
     }
 
