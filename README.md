@@ -1,7 +1,7 @@
 # Simple discord giveaway bot
-> A very simple discord giveaway bot made with discord.js
+> A very simple discord giveaway bot made with discord.js and discord-giveaways
 
-![Preview](https://i.imgur.com/vYtv3fA.png)
+![Preview](https://i.imgur.com/fmj4rEi.png)
 
 ## Install
 
@@ -31,14 +31,14 @@ Open config.json and change the following values:
 
 ```
 "prefix": "YOUR_PREFIX_HERE",
-"token": "YOUR_TOKEN_HERE"
+"token": "YOUR_TOKEN_HERE",
 ```
 
 ## Start
 
 `After you have filled in the config.json file use the start-bot.bat file to start your bot automatically.`
 
-![Example2](https://i.imgur.com/Yeu5CXZ.gif)
+![Example](https://i.imgur.com/iftsNNk.gif)
 
 ```
 If you have a problem starting the bot you can always open an issue in this repository.
@@ -50,6 +50,7 @@ If you have a problem starting the bot you can always open an issue in this repo
 * Create your own custom giveaways!
 * Custom time!
 * Custom prize!
+* Multiple winners!
 * Not manipulable!
 
 ## Contributing
