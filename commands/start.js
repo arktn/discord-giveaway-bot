@@ -13,12 +13,12 @@ exports.run = async (client, message, args) => {
 
     let giveawayDuration = args[1];
     if(!giveawayDuration || isNaN(ms(giveawayDuration))){
-        return message.channel.send(':boom: Hm. I can\'t seem to get a number from that. Can you try again?');
+        return message.channel.send(':boom: Hm. you haven\'t provided a duration. Can you try again?');
     }
 
     let giveawayNumberWinners = args[2];
     if(isNaN(giveawayNumberWinners) || (parseInt(giveawayNumberWinners) <= 0)){
-        return message.channel.send(':boom: Uh... that doesn\'t look like a valid number.');
+        return message.channel.send(':boom: Uh... you haven\'t provided the amount of winners.');
     }
 
     let giveawayPrize = args.slice(3).join(' ');
