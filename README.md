@@ -1,5 +1,10 @@
 # Simple discord giveaway bot
-> A very simple discord giveaway bot made with discord.js and discord-giveaways
+![GitHub followers](https://img.shields.io/github/followers/ghaku?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/ghaku/discord-giveaway-bot?style=social) ![GitHub forks](https://img.shields.io/github/forks/ghaku/discord-giveaway-bot?style=social)
+> Please support this project by either starring, forking or following me! ily <3 ₍ᐢ•ﻌ•ᐢ₎*･ﾟ｡
+
+🎁 A very simple discord giveaway bot made with discord.js and discord-giveaways 🎁
+
+#
 
 ![Preview](https://i.imgur.com/fmj4rEi.png)
 

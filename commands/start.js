@@ -52,6 +52,6 @@ exports.run = async (client, message, args) => {
         }
     });
 
-    message.channel.send(`:tada: Done! The giveaway for the \`${prize}\` is starting in ${giveawayChannel}!`);
+    message.channel.send(`:tada: Done! The giveaway for the \`${giveawayPrize}\` is starting in ${giveawayChannel}!`);
 
 };
