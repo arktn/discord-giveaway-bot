@@ -18,7 +18,7 @@ exports.run = async (client, message, args) => {
 
     let giveawayNumberWinners = args[2];
     if(isNaN(giveawayNumberWinners) || (parseInt(giveawayNumberWinners) <= 0)){
-        return message.channel.send(':boom: Uh... you haven\'t provided the amount of winners..');
+        return message.channel.send(':boom: Uh... you haven\'t provided the amount of winners.');
     }
 
     let giveawayPrize = args.slice(3).join(' ');
