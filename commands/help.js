@@ -3,7 +3,7 @@ const { prefix } = require('../config.json');
 
 module.exports = {
     name: 'help',
-    execute(client, message){
+exports.run = async (client, message, args) => {
         if (message.guild) {
             message.channel.send('Check your DMs!');
             message.delete();
@@ -41,4 +41,3 @@ module.exports = {
             message.author.send(embed);
         }
     }
-}
