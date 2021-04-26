@@ -1,8 +1,6 @@
 let Discord = require('discord.js');
 const { prefix } = require('../config.json');
 
-module.exports = {
-    name: 'help',
 exports.run = async (client, message, args) => {
         if (message.guild) {
             message.channel.send('Check your DMs!');
