@@ -25,7 +25,7 @@ When you see all Github files in your folder you installed the bot succesfully.
 Alternatives:
 ```
 Download the repository as a .zip folder.
-Open the repositroy in GitHub Desktop.
+Open the repository in GitHub Desktop.
 npm install
 yarn
 ```
