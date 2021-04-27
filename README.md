@@ -41,7 +41,10 @@ Open config.json and change the following values:
 
 ## Start
 
-`After you have filled in the config.json file use the start-bot.bat file to start your bot automatically.`
+`After you have filled in the config.json file use the start-bot.bat file to start your bot.`
+
+`If you get the error message that the bot was unable to find discord.js or discord-giveaways just use the setup.bat file.`
+`This will download both packages automatically and should fix your problem.`
 
 ![Example](https://i.imgur.com/iftsNNk.gif)
 
