@@ -29,7 +29,7 @@ exports.run = async (client, message, args) => {
     client.giveawaysManager.start(giveawayChannel, {
         time: ms(giveawayDuration),
         prize: giveawayPrize,
-        winnerCount: giveawayNumberWinners,
+        winnerCount: parseInt(giveawayNumberWinners),
         hostedBy: client.config.hostedBy ? message.author : null,
         messages: {
             giveaway: (client.config.everyoneMention ? "@everyone\n\n" : "")+":tada: **GIVEAWAY** :tada:",
