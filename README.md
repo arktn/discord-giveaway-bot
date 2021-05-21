@@ -72,6 +72,6 @@ If you have a problem starting the bot you can always open an issue in this repo
 
 ## Authors
 
-Authored and maintained by ghaku & jac.
+Authored and maintained by ghaku & JacProsser.
 
->[@ghaku's github](https://github.com/ghaku) & [@jac's github](https://github.com/JacProsser)
+> GitHub [@ghaku](https://github.com/ghaku) [@JacProsser](https://github.com/JacProsser)
