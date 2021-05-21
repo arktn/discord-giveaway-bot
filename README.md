@@ -70,8 +70,8 @@ If you have a problem starting the bot you can always open an issue in this repo
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request! ₍ᐢ•ﻌ•ᐢ₎*･ﾟ｡
 
-## Author
+## Authors
 
-Authored and maintained by ghaku.
+Authored and maintained by ghaku & JacProsser.
 
-> GitHub [@ghaku](https://github.com/ghaku)
+> GitHub [@ghaku](https://github.com/ghaku) [@JacProsser](https://github.com/JacProsser)
