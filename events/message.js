@@ -18,7 +18,7 @@ module.exports = (client, message) => {
     try {
     cmd.run(client, message, args);
     } catch (error) {
-    message.reply("An error occurred when trying to run the command")
+    message.reply("An error occurred while attempting to execute this command.")
     console.log(error)
    }
 };
