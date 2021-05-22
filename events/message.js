@@ -1,6 +1,6 @@
 module.exports = (client, message) => {
     
-    var prefix = client.config.prefix
+    const prefix = client.config.prefix;
 
     if (!message.content.startsWith(prefix) || message.author.bot) return;
   
@@ -16,9 +16,9 @@ module.exports = (client, message) => {
     if (message.channel.type === 'dm') return;
   
     try {
-    cmd.run(client, message, args);
+        cmd.run(client, message, args);
     } catch (error) {
-    message.reply("An error occurred while attempting to execute this command.")
-    console.log(error)
+        message.reply("An error occurred while attempting to execute this command.");
+        console.log(error);
    }
 };
