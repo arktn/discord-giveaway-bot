@@ -1,0 +1,16 @@
+{
+    "Bot_Info": {
+        "token": "YOUR_TOKEN_HERE",
+        "prefix": "YOUR_PREFIX_HERE"
+    },
+
+   "Embed_Defaults": {
+       "EmbedColour": "RANDOM"
+   },
+
+   "Giveaway_Options": {
+       "everyoneMention": true,
+       "hostedBy": true
+   }
+
+}   
