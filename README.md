@@ -31,7 +31,7 @@ Hi! This is a repository for a simple **discord giveaway bot**, this discord bot
 
 **Ending Point:** When you see all of the github files in your folder this means that you installed the bot succesfully.
 
-### Alternatives:
+### Alternative downloading methods:
 **Alternative 1:** Downloading the repository as a zip file. Which can be done [here](https://github.com/ghaku/discord-giveaway-bot/archive/refs/heads/master.zip).
 
 ## Usage + Setup
