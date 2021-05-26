@@ -46,7 +46,7 @@ Open config.json and change the following values:
 `If you get the error message that the bot was unable to find discord.js or discord-giveaways just use the setup.bat file.`
 `This will download both packages automatically and should fix your problem.`
 
-![Example](https://i.imgur.com/iftsNNk.gif)
+![Example](https://i.imgur.com/GCcG43Y.gif)
 
 ```
 If you have a problem starting the bot you can always open an issue in this repository.
