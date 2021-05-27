@@ -1,4 +1,3 @@
-echo off
-cls
+@echo off
 node index.js
 pause

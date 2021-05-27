@@ -1,67 +1,58 @@
-# Simple discord giveaway bot
+# Simple discord giveaway bot 
 [![GitHub followers](https://img.shields.io/github/followers/ghaku?style=social)](https://github.com/ghaku) [![GitHub Repo stars](https://img.shields.io/github/stars/ghaku/discord-giveaway-bot?style=social)](https://github.com/ghaku/discord-giveaway-bot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ghaku/discord-giveaway-bot?style=social)](https://github.com/ghaku/discord-giveaway-bot/network/members)
-> Please support this project by either starring, forking or following me! ily <3 ₍ᐢ•ﻌ•ᐢ₎*･ﾟ｡
 
-🎁 A very simple discord giveaway bot made with discord.js and discord-giveaways 🎁
+Hi! This is a repository for a simple **discord giveaway bot**, this discord bot is made with [discord.js](https://discord.js.org/) and an npm package called discord-giveaways. If you would like to know how to install and setup this discord bot head to "[How to install?](#how-to-install)"
 
-#
-
-![Preview](https://i.imgur.com/fmj4rEi.png)
-
-## Install
-
-Clone the repository:
-```
-You have to install NodeJS and Git.
-Create a folder.
-Open Command Prompt.
-Type in: cd The path to your new folder. (Example: C:\Users\User\Desktop\New folder)
-Press enter.
-After that type in: git clone https://github.com/ghaku/discord-giveaway-bot.git
-Press enter.
-When you see all Github files in your folder you installed the bot succesfully.
-```
-
-Alternatives:
-```
-Download the repository as a .zip folder.
-Open the repository in GitHub Desktop.
-npm install
-yarn
-```
-
-## Usage
-
-Open config.json and change the following values:
-
-```
-"prefix": "YOUR_PREFIX_HERE",
-"token": "YOUR_TOKEN_HERE",
-```
-
-## Start
-
-`After you have filled in the config.json file use the start.bat file to start your bot.`
-
-`If you get the error message that the bot was unable to find discord.js or discord-giveaways just use the setup.bat file.`
-`This will download both packages automatically and should fix your problem.`
-
-![Example](https://i.imgur.com/iftsNNk.gif)
-
-```
-If you have a problem starting the bot you can always open an issue in this repository.
-```
-> Don't worry the token shown in this gif is outdated.
+## Preview of discord bot
+![Preview](https://i.imgur.com/fmj4rEi.png)This is what will show when the bot has been setup successfully.
 
 ## Features
-
 * Create your own custom giveaways!
 * Custom time!
 * Custom prize!
 * Multiple winners!
 * Not manipulable!
 
-## Contributing
+## How to install?
+
+### Using [git clone](https://git-scm.com/docs/git-clone):
+**Step 1:** You have to install [NodeJS](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads).
+
+**Step 2:** Create a folder (preferably on your desktop).
+
+**Step 3:** Open Command Prompt.
+**Step 4:** Type in: cd path/to/your/discordbot/folder. (Example: C:\Users\Ghaku\Desktop\discord-giveaway-bot)
+
+**Step 5:** Press enter.
+
+**Step 6:** After that type in: git clone https://github.com/ghaku/discord-giveaway-bot.git
+
+**Step 7:** Press enter.
+
+**Ending Point:** When you see all of the github files in your folder this means that you installed the bot succesfully.
+
+### Alternative downloading methods:
+**Alternative 1:** Downloading the repository as a zip file. Which can be done [here](https://github.com/ghaku/discord-giveaway-bot/archive/refs/heads/master.zip).
+
+## Usage + Setup
+
+**Step 1:** Open config.json and change the following values:
+|Value|What does this value mean?  |
+|--|--|
+|"token": "YOUR_TOKEN_HERE" | This is what discord will use to log into your bot.  |
+|"prefix": "YOUR_PREFIX_HERE" | This is what your bot will respond to.  |
+
+**Step 2:** Run **setup.bat**.
+
+**Step 3:** Run **start.bat**
+And you are done! You have successfully made your discord bot run. If you are having any troubles refer to the GIF below or open an [issue](https://github.com/ghaku/discord-giveaway-bot/issues/new).
+
+![Example](https://i.imgur.com/GCcG43Y.gif)
+> The token in this GIF is outdated.
+
+
+
+## Contributing to the repository
 
 1. [Fork the repository!](https://github.com/ghaku/discord-giveaway-bot/fork)
 2. Clone your fork: `git clone https://github.com/your-username/discord-giveaway-bot.git`
@@ -72,6 +63,5 @@ If you have a problem starting the bot you can always open an issue in this repo
 
 ## Authors
 
-Authored and maintained by ghaku & JacProsser.
+Authored and maintained by [ghaku](https://github.com/ghaku) & [jac](https://github.com/JacProsser).
 
-> GitHub [@ghaku](https://github.com/ghaku) [@JacProsser](https://github.com/JacProsser)

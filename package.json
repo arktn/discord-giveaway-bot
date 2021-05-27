@@ -13,8 +13,8 @@
   "author": "https://github.com/ghaku",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1",
     "discord-giveaways": "^4.4.3",
+    "discord.js": "^12.5.3",
     "ms": "^2.1.2"
   }
 }

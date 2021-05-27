@@ -1,12 +1,8 @@
-const fs = require('fs');
-
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-const config = require('./config.json');
-client.config = config;
-
+const { Client, Collection } = require("discord.js");
+const config = require("./config.json");
+const client = new Client();
 const { GiveawaysManager } = require('discord-giveaways');
+
 client.giveawaysManager = new GiveawaysManager(client, {
     storage: "./giveaways.json",
     updateCountdownEvery: 5000,
@@ -29,25 +25,8 @@ client.giveawaysManager.on("giveawayEnded", (giveaway, winners) => {
     console.log(`Giveaway #${giveaway.messageID} ended! Winners: ${winners.map((member) => member.user.username).join(', ')}`);
 });
 
-fs.readdir("./events/", (_err, files) => {
-    files.forEach((file) => {
-        if (!file.endsWith(".js")) return;
-        const event = require(`./events/${file}`);
-        let eventName = file.split(".")[0];
-        client.on(eventName, event.bind(null, client));
-        delete require.cache[require.resolve(`./events/${file}`)];
-    });
-});
+["aliases", "commands"].forEach(x => client[x] = new Collection());
+["command", "event"].forEach(x => require(`./handlers/${x}`)(client));
 
-client.commands = new Discord.Collection();
 
-fs.readdir("./commands/", (_err, files) => {
-    files.forEach((file) => {
-        if (!file.endsWith(".js")) return;
-        let props = require(`./commands/${file}`);
-        let commandName = file.split(".")[0];
-        client.commands.set(commandName, props);
-    });
-});
-
-client.login(config.token);
+client.login(config["Bot_Info"].token);
