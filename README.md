@@ -1,5 +1,9 @@
-# Simple discord giveaway bot 
+<div align="center">
+  <h1 align="center">Simple discord giveaway bot</h1> 
+
 [![GitHub followers](https://img.shields.io/github/followers/ghaku?style=social)](https://github.com/ghaku) [![GitHub Repo stars](https://img.shields.io/github/stars/ghaku/discord-giveaway-bot?style=social)](https://github.com/ghaku/discord-giveaway-bot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ghaku/discord-giveaway-bot?style=social)](https://github.com/ghaku/discord-giveaway-bot/network/members)
+
+</div>
 
 Hi! This is a repository for a simple **discord giveaway bot**, this discord bot is made with [discord.js](https://discord.js.org/) and an npm package called discord-giveaways. If you would like to know how to install and setup this discord bot head to "[How to install?](#how-to-install)"
 
