@@ -63,5 +63,4 @@ And you are done! You have successfully made your discord bot run. If you are ha
 
 ## Authors
 
-Authored and maintained by [ghaku](https://github.com/ghaku) & [jac](https://github.com/JacProsser).
-
+Authored and maintained by [@JacProsser](https://github.com/JacProsser) & [@ghaku](https://github.com/ghaku).
