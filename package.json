@@ -1,6 +1,6 @@
 {
   "name": "discord-giveaway-bot",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Very simple giveaway bot made with discord.js and discord-giveaways",
   "main": "index.js",
   "scripts": {
