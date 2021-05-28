@@ -9,7 +9,7 @@
    },
 
    "Giveaway_Options": {
-    "giveawayRole": "",
+    "giveawayRoleID": "",
     "showMention": true,
     "hostedBy": true
 }

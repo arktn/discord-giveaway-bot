@@ -46,7 +46,7 @@ Hi! This is a repository for a simple **discord giveaway bot**, this discord bot
 |"token": "YOUR_TOKEN_HERE" | This is what discord will use to log into your bot.  |
 |"prefix": "YOUR_PREFIX_HERE" | This is what your bot will respond to.  |
 |Optional Values|What does this value mean?  |
-|"giveawayRole": "", | This is what the bot will mention when the giveaway starts. Default = @everyone  |
+|"giveawayRole": "", | This is what the bot will mention when the giveaway starts. Default = @everyone. has to be an ID  |
 |"showMention": true, | This determines if the mention will be shown or not  |
 
 **Step 2:** Run **setup.bat**.
