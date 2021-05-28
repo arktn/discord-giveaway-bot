@@ -45,13 +45,16 @@ Hi! This is a repository for a simple **discord giveaway bot**, this discord bot
 |--|--|
 |"token": "YOUR_TOKEN_HERE" | This is what discord will use to log into your bot.  |
 |"prefix": "YOUR_PREFIX_HERE" | This is what your bot will respond to.  |
+|Optional Values|What does this value mean?  |
+|"giveawayRole": "", | This is what the bot will mention when the giveaway starts. Default = @everyone  |
+|"showMention": true, | This determines if the mention will be shown or not  |
 
 **Step 2:** Run **setup.bat**.
 
 **Step 3:** Run **start.bat**
 And you are done! You have successfully made your discord bot run. If you are having any troubles refer to the GIF below or open an [issue](https://github.com/ghaku/discord-giveaway-bot/issues/new).
 
-![Example](https://i.imgur.com/GCcG43Y.gif)
+![Example](https://user-images.githubusercontent.com/48368615/120048766-de352780-c00f-11eb-882e-b69e45e96c64.gif)
 > The token in this GIF is outdated.
 
 
