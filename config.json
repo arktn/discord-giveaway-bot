@@ -9,8 +9,9 @@
    },
 
    "Giveaway_Options": {
-       "everyoneMention": true,
-       "hostedBy": true
-   }
+    "giveawayRole": "",
+    "showMention": true,
+    "hostedBy": true
+}
 
 }   
