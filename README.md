@@ -14,6 +14,7 @@ Hi! This is a repository for a simple **discord giveaway bot**, this discord bot
 * Create your own custom giveaways!
 * Custom time!
 * Custom prize!
+* Custom role mention!
 * Multiple winners!
 * Not manipulable!
 
