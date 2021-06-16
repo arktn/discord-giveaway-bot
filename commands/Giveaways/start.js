@@ -40,9 +40,9 @@ module.exports = {
         if (!giveawayPrize) {
             return message.channel.send(':boom: Oh, it seems like you didn\'t give me a valid prize!');
         }
-        if (!config["Giveaway_Options"].showMention && config["Giveaway_Options"].giveawayRole && config["Giveaway_Options"].giveawayMention) {
+        if (!config["Giveaway_Options"].showMention && config["Giveaway_Options"].giveawayRoleID && config["Giveaway_Options"].giveawayMention) {
 
-            giveawayChannel.send(`<@&${config["Giveaway_Options"].giveawayRole}>`).then((msg) => msg.delete({ timeout: 1000 }))
+            giveawayChannel.send(`<@&${config["Giveaway_Options"].giveawayRoleID}>`).then((msg) => msg.delete({ timeout: 1000 }))
             client.giveawaysManager.start(giveawayChannel, {
                 time: ms(giveawayDuration),
                 prize: giveawayPrize,
@@ -69,7 +69,7 @@ module.exports = {
                 }
             });
 
-        } else if (config["Giveaway_Options"].showMention && config["Giveaway_Options"].giveawayRole && config["Giveaway_Options"].giveawayMention) {
+        } else if (config["Giveaway_Options"].showMention && config["Giveaway_Options"].giveawayRoleID && config["Giveaway_Options"].giveawayMention) {
 
             client.giveawaysManager.start(giveawayChannel, {
                 time: ms(giveawayDuration),
@@ -77,8 +77,8 @@ module.exports = {
                 winnerCount: parseInt(giveawayNumberWinners),
                 hostedBy: config["Giveaway_Options"].hostedBy ? message.author : null,
                 messages: {
-                    giveaway: (config["Giveaway_Options"].showMention ? `<@&${config["Giveaway_Options"].giveawayRole}>\n\n` : "") + ":tada: **GIVEAWAY** :tada:",
-                    giveawayEnded: (config["Giveaway_Options"].showMention ? `<@&${config["Giveaway_Options"].giveawayRole}>\n\n` : "") + ":tada: **GIVEAWAY ENDED** :tada:",
+                    giveaway: (config["Giveaway_Options"].showMention ? `<@&${config["Giveaway_Options"].giveawayRoleID}>\n\n` : "") + ":tada: **GIVEAWAY** :tada:",
+                    giveawayEnded: (config["Giveaway_Options"].showMention ? `<@&${config["Giveaway_Options"].giveawayRoleID}>\n\n` : "") + ":tada: **GIVEAWAY ENDED** :tada:",
                     timeRemaining: "Time remaining: **{duration}**!",
                     inviteToParticipate: "React with 🎉 to participate!",
                     winMessage: "Congratulations, {winners}! You won the **{prize}**!",
@@ -97,7 +97,7 @@ module.exports = {
                 }
             });
 
-        } else if (!config["Giveaway_Options"].showMention && !config["Giveaway_Options"].giveawayRole && config["Giveaway_Options"].giveawayMention) {
+        } else if (!config["Giveaway_Options"].showMention && !config["Giveaway_Options"].giveawayRoleID && config["Giveaway_Options"].giveawayMention) {
             giveawayChannel.send(`@everyone`).then((msg) => msg.delete({ timeout: 1000 }))
             client.giveawaysManager.start(giveawayChannel, {
                 time: ms(giveawayDuration),
@@ -125,7 +125,7 @@ module.exports = {
                 }
             });
 
-        } else if (config["Giveaway_Options"].showMention && !config["Giveaway_Options"].giveawayRole && config["Giveaway_Options"].giveawayMention) {
+        } else if (config["Giveaway_Options"].showMention && !config["Giveaway_Options"].giveawayRoleID && config["Giveaway_Options"].giveawayMention) {
             client.giveawaysManager.start(giveawayChannel, {
                 time: ms(giveawayDuration),
                 prize: giveawayPrize,
