@@ -5,7 +5,7 @@ module.exports = {
     config: {
         name: "start",
         description: "Starts a giveaway.",
-        usage: "",
+        usage: "[channel] [duration] [winners] [prize]",
         category: "Giveaways",
         accessableby: "Admins",
         aliases: [], // To add custom aliases just type ["alias1", "alias2"].

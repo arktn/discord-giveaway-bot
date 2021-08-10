@@ -1,19 +1,16 @@
 {
     "Bot_Info": {
-        "token": "YOUR_TOKEN_HERE",
-        "prefix": "YOUR_PREFIX_HERE"
+        "token": "ODcyMTk1NDc3NzQxOTE2MTkw.YQmVVg.giDt0qtPIcqANxgAGLHdR3IDQyA",
+        "prefix": "!"
     },
-
    "Embed_Defaults": {
        "EmbedColour": "RANDOM"
    },
-
    "Giveaway_Options": {
     "giveawayManagerID": "",
     "giveawayRoleID": "",
     "giveawayMention": true,
     "showMention": true,
     "hostedBy": true
+    }
 }
-
-}   

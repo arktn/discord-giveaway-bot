@@ -4,7 +4,7 @@ module.exports = {
     config: {
         name: "reroll",
         description: "Rerolls a giveaway.",
-        usage: "",
+        usage: "[message-id]",
         category: "Giveaways",
         accessableby: "Admins",
         aliases: [], // To add custom aliases just type ["alias1", "alias2"].
