@@ -78,7 +78,7 @@ module.exports = {
           [
             `⌨️ ${prefix}${rerollCommand.config.name} 892678258946659587`,
             `➡️ Selects new winners for the giveaway with the message-ID \`892678258946659587\`.`
-          ])
+          ].join('\n'))
         .setFooter('Made with 💖 and discord.js by ghaku', client.user.displayAvatarURL({ ...options }))
       message.author.send(embed);
   },
