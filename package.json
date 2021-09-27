@@ -1,6 +1,6 @@
 {
   "name": "discord-giveaway-bot",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Very simple giveaway bot made with discord.js and discord-giveaways",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/ghaku/discord-giveaway-bot"
   },
-  "author": "https://github.com/ghaku",
+  "author": "https://github.com/fekt",
   "license": "ISC",
   "dependencies": {
     "discord-giveaways": "^4.4.3",
