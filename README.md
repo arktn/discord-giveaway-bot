@@ -8,7 +8,7 @@
 Hi! This is a repository for a simple **discord giveaway bot**, this discord bot is made with [discord.js](https://discord.js.org/) and an npm package called discord-giveaways. If you would like to know how to install and setup this discord bot head to "[How to install?](#how-to-install)"
 
 ## Preview of discord bot
-![Preview](https://i.imgur.com/fmj4rEi.png)This is what will show when the bot has been setup successfully.
+![Preview](https://i.imgur.com/2FYo4T1.png)This is what will show when the bot has been setup successfully.
 
 ## Features
 * Create your own custom giveaways!
