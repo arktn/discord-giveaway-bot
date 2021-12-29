@@ -1,7 +1,7 @@
 <div align="center">
   <h1 align="center">Simple discord giveaway bot</h1> 
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/0rso/discord-giveaway-bot?style=social)](https://github.com/0rso/discord-giveaway-bot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/0rso/discord-giveaway-bot?style=social)](https://github.com/0rso/discord-giveaway-bot/network/members)
+[![GitHub followers](https://img.shields.io/github/followers/orsou?style=social)](https://github.com/orsou) [![GitHub Repo stars](https://img.shields.io/github/stars/orsou/discord-giveaway-bot?style=social)](https://github.com/orsou/discord-giveaway-bot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/orsou/discord-giveaway-bot?style=social)](https://github.com/orsou/discord-giveaway-bot/network/members)
 
 </div>
 
@@ -37,9 +37,20 @@ Hi! This is a repository for a simple **discord giveaway bot**, this discord bot
 4. Extract the zip file to the folder.
 5. When you see all of the github files in your folder this means that you downloaded the bot succesfully.
 
+
 ## Usage + Setup
 
 **Step 1:** Bot settings
+
+**Step 2:** Create a folder (preferably on your desktop).
+
+**Step 3:** Open Command Prompt.
+
+**Step 4:** Type in: cd path/to/your/discordbot/folder. (Example: C:\Users\orsou\Desktop\discord-giveaway-bot)
+
+**Step 5:** Press enter.
+
+**Step 6:** After that type in: git clone https://github.com/orsou/discord-giveaway-bot.git
 
 Open config.json and change the following values:
 
@@ -74,7 +85,7 @@ And you are done! You have successfully made your discord bot run. If you are ha
 
 ## Contributing to the repository
 
-1. [Fork the repository!](https://github.com/0rso/discord-giveaway-bot/fork)
+1. [Fork the repository!](https://github.com/orsou/discord-giveaway-bot/fork)
 2. Clone your fork: `git clone https://github.com/your-username/discord-giveaway-bot.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Commit your changes: `git commit -am 'Add some feature'`
@@ -83,4 +94,4 @@ And you are done! You have successfully made your discord bot run. If you are ha
 
 ## Authors
 
-Authored and maintained by [@0rso](https://github.com/0rso) & [@JacProsser](https://github.com/JacProsser).
+Authored and maintained by [@orsou](https://github.com/orsou) & [@JacProsser](https://github.com/JacProsser).

@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/0rso/discord-giveaway-bot"
+    "url": "https://github.com/orsou/discord-giveaway-bot"
   },
-  "author": "https://github.com/0rso",
+  "author": "https://github.com/orsou",
   "license": "ISC",
   "dependencies": {
     "discord-giveaways": "^4.4.3",

@@ -20,13 +20,13 @@ module.exports = {
       .setAuthor(
         client.user.username,
         client.user.displayAvatarURL({ ...avatarOptions }),
-        'https://github.com/0rso/discord-giveaway-bot'
+        'https://github.com/orsou/discord-giveaway-bot'
       )
       .setThumbnail(client.user.displayAvatarURL({ ...avatarOptions }))
       .setTitle('Help')
-      .setURL('https://github.com/0rso/discord-giveaway-bot')
+      .setURL('https://github.com/orsou/discord-giveaway-bot')
       .setColor('7289da')
-      .setDescription(`You want to create a giveaway bot yourself?\n[Check out our Github page!](https://github.com/0rso/discord-giveaway-bot)`)
+      .setDescription(`You want to create a giveaway bot yourself?\n[Check out our Github page!](https://github.com/orsou/discord-giveaway-bot)`)
       .addFields({
         name: `🎉 ${config["Bot_Info"].prefix}start [channel] [duration] [winners] [prize]`,
         value: [
