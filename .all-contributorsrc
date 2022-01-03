@@ -23,6 +23,15 @@
         "content",
         "test"
       ]
+    },
+    {
+      "login": "OofChair",
+      "name": "OofChair",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66800643?v=4",
+      "profile": "https://oofchair.xyz",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
