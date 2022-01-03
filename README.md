@@ -1,8 +1,5 @@
 <div align="center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-  <h1 align="center">Simple discord giveaway bot</h1> 
+<h1 align="center">Simple discord giveaway bot</h1> 
 
 [![GitHub followers](https://img.shields.io/github/followers/orsou?style=social)](https://github.com/orsou) [![GitHub Repo stars](https://img.shields.io/github/stars/orsou/discord-giveaway-bot?style=social)](https://github.com/orsou/discord-giveaway-bot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/orsou/discord-giveaway-bot?style=social)](https://github.com/orsou/discord-giveaway-bot/network/members)
 
