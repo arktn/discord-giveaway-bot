@@ -11,7 +11,7 @@
     "url": "https://github.com/orsou/discord-giveaway-bot"
   },
   "author": "https://github.com/orsou",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord-giveaways": "^4.4.3",
     "discord.js": "^12.5.3",
