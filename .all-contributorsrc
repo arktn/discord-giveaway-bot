@@ -23,6 +23,15 @@
         "content",
         "test"
       ]
+    },
+    {
+      "login": "Tanya575",
+      "name": "Tanya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80748971?v=4",
+      "profile": "https://github.com/Tanya575",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
