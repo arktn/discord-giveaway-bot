@@ -23,6 +23,15 @@
         "content",
         "test"
       ]
+    },
+    {
+      "login": "LeVonara9",
+      "name": "LeVonara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80195671?v=4",
+      "profile": "https://github.com/LeVonara9",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
