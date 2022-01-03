@@ -40,19 +40,7 @@ Hi! This is a repository for a simple **discord giveaway bot**, this discord bot
 
 ## Usage + Setup
 
-**Step 1:** Bot settings
-
-**Step 2:** Create a folder (preferably on your desktop).
-
-**Step 3:** Open Command Prompt.
-
-**Step 4:** Type in: cd path/to/your/discordbot/folder. (Example: C:\Users\orsou\Desktop\discord-giveaway-bot)
-
-**Step 5:** Press enter.
-
-**Step 6:** After that type in: git clone https://github.com/orsou/discord-giveaway-bot.git
-
-Open config.json and change the following values:
+**Step 1:** Open config.json and change the following values:
 
 | Required value | What does this value mean? |
 | --- | --- |
@@ -78,7 +66,7 @@ Open config.json and change the following values:
 - Linux:
   - Run `node index.js` command
 
-And you are done! You have successfully made your discord bot run. If you are having any troubles refer to the GIF below or open an [issue](https://github.com/0rso/discord-giveaway-bot/issues/new).
+And you are done! You have successfully made your discord bot run. If you are having any troubles refer to the GIF below or open an [issue](https://github.com/orsou/discord-giveaway-bot/issues/new).
 
 ![Example](https://user-images.githubusercontent.com/48368615/120048766-de352780-c00f-11eb-882e-b69e45e96c64.gif)
 > The token in this GIF is invalid. You have to use your own.
@@ -92,6 +80,5 @@ And you are done! You have successfully made your discord bot run. If you are ha
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request! ₍ᐢ•ﻌ•ᐢ₎*･ﾟ｡
 
-## Authors
-
-Authored and maintained by [@orsou](https://github.com/orsou) & [@JacProsser](https://github.com/JacProsser).
+## LICENSE
+MIT
