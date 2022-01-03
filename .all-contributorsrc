@@ -23,6 +23,19 @@
         "content",
         "test"
       ]
+    },
+    {
+      "login": "JacProsser",
+      "name": "jac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48368615?v=4",
+      "profile": "https://prosserjac.xyz/",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "question",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
