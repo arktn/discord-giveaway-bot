@@ -23,6 +23,15 @@
         "content",
         "test"
       ]
+    },
+    {
+      "login": "GoudronViande24",
+      "name": "Thomas Fournier",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42936037?v=4",
+      "profile": "https://artivain.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
