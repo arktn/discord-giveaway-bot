@@ -83,9 +83,6 @@ And you are done! You have successfully made your discord bot run. If you are ha
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request! ₍ᐢ•ﻌ•ᐢ₎*･ﾟ｡
 
-## LICENSE
-MIT
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -105,3 +102,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## LICENSE
+MIT
