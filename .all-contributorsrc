@@ -1,0 +1,34 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "orsou",
+      "name": "Orso",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64563726?v=4",
+      "profile": "https://hardhat.cc",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance",
+        "projectManagement",
+        "ideas",
+        "design",
+        "example",
+        "review",
+        "tutorial",
+        "content",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "discord-giveaway-bot",
+  "projectOwner": "orsou",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
