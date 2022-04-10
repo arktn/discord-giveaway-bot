@@ -20,13 +20,13 @@ module.exports = {
       .setAuthor(
         client.user.username,
         client.user.displayAvatarURL({ ...avatarOptions }),
-        'https://github.com/orsou/discord-giveaway-bot'
+        'https://github.com/fez6/discord-giveaway-bot'
       )
       .setThumbnail(client.user.displayAvatarURL({ ...avatarOptions }))
       .setTitle('Help')
-      .setURL('https://github.com/orsou/discord-giveaway-bot')
+      .setURL('https://github.com/fez6/discord-giveaway-bot')
       .setColor('7289da')
-      .setDescription(`You want to create a giveaway bot yourself?\n[Check out our Github page!](https://github.com/orsou/discord-giveaway-bot)`)
+      .setDescription(`You want to create a giveaway bot yourself?\n[Check out our Github page!](https://github.com/fez6/discord-giveaway-bot)`)
       .addFields({
         name: `🎉 ${config["Bot_Info"].prefix}start [channel] [duration] [winners] [prize]`,
         value: [
@@ -55,7 +55,7 @@ module.exports = {
         name: '👥 Example:',
         value: `⌨️ ${config["Bot_Info"].prefix}reroll 892678258946659587\n➡️ Selects new winners for the giveaway with the message-ID \`892678258946659587\`.`
       })
-      .setFooter('Made with 💖 and discord.js by Orso', client.user.displayAvatarURL({ ...avatarOptions }))
+      .setFooter('Made with 💖 and discord.js by fez', client.user.displayAvatarURL({ ...avatarOptions }))
 
     if (message.guild) {
       message.channel.send('Check your DMs!');
