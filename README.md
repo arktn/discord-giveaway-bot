@@ -1,8 +1,13 @@
 <div align="center">
 <h1 align="center">Simple discord giveaway bot</h1> 
 
-[![GitHub followers](https://img.shields.io/github/followers/fez6?style=social)](https://github.com/fez6) [![GitHub Repo stars](https://img.shields.io/github/stars/fez6/discord-giveaway-bot?style=social)](https://github.com/fez6/discord-giveaway-bot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/fez6/discord-giveaway-bot?style=social)](https://github.com/fez6/discord-giveaway-bot/network/members)
+[![GitHub followers](https://img.shields.io/github/followers/fez6)](https://github.com/fez6) [![GitHub Repo stars](https://img.shields.io/github/stars/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot/stargazers) [![GitHub forks](https://img.shields.io/github/forks/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot/network/members)
 
+[![Version](https://shields.io/github/package-json/v/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot/blob/master/package.json) [![Pull requests](https://img.shields.io/github/issues-pr/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot/pulls) [![Issues](https://img.shields.io/github/issues-raw/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot/issues) [![Last commit](https://img.shields.io/github/last-commit/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot/commits/master)
+
+[![License](https://img.shields.io/github/license/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot/blob/master/LICENSE) [![Repo size](https://img.shields.io/github/repo-size/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot) [![Language](https://img.shields.io/github/languages/top/fez6/discord-giveaway-bot)](https://github.com/fez6/discord-giveaway-bot/search?l=JavaScript) 
+	
+	
 </div>
 
 Hi! This is a repository for a simple **discord giveaway bot**, this discord bot is made with [discord.js](https://discord.js.org/) and an npm package called discord-giveaways. If you would like to know how to install and setup this discord bot head to "[How to install?](#how-to-install)"
