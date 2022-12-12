@@ -6,8 +6,10 @@
 [![Version](https://shields.io/github/package-json/v/schnappi21/discord-giveaway-bot)](https://github.com/schnappi21/discord-giveaway-bot/blob/master/package.json) [![Pull requests](https://img.shields.io/github/issues-pr/schnappi21/discord-giveaway-bot)](https://github.com/schnappi21/discord-giveaway-bot/pulls) [![Issues](https://img.shields.io/github/issues-raw/schnappi21/discord-giveaway-bot)](https://github.com/schnappi21/discord-giveaway-bot/issues) [![Last commit](https://img.shields.io/github/last-commit/schnappi21/discord-giveaway-bot)](https://github.com/schnappi21/discord-giveaway-bot/commits/master)
 
 [![License](https://img.shields.io/github/license/schnappi21/discord-giveaway-bot)](https://github.com/schnappi21/discord-giveaway-bot/blob/master/LICENSE) [![Repo size](https://img.shields.io/github/repo-size/schnappi21/discord-giveaway-bot)](https://github.com/schnappi21/discord-giveaway-bot) [![Language](https://img.shields.io/github/languages/top/schnappi21/discord-giveaway-bot)](https://github.com/schnappi21/discord-giveaway-bot/search?l=JavaScript) 
-	
-	
+
+
+⚠️ Outdated ⚠️
+
 </div>
 
 Hi! This is a repository for a simple **discord giveaway bot**, this discord bot is made with [discord.js](https://discord.js.org/) and an npm package called discord-giveaways. If you would like to know how to install and setup this discord bot head to "[How to install?](#how-to-install)"
