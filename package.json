@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schnappi21/discord-giveaway-bot"
+    "url": "https://github.com/arktn/discord-giveaway-bot"
   },
-  "author": "https://github.com/schnappi21",
+  "author": "https://github.com/arktn",
   "license": "MIT",
   "dependencies": {
     "discord-giveaways": "^4.4.3",
