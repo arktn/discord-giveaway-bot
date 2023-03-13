@@ -26,4 +26,4 @@
 </div>
 
 ## LICENSE
-MIT
+MIT © 2023 [arktn](https://github.com/arktn)
